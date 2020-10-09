@@ -14,9 +14,7 @@
             <v-card-text>
               <b>Email:</b> {{empleado.email}} <br>
               <b> Cel: </b> {{empleado.phone}}<br>
-              <b>Dirección:</b>
-              {{empleado.address.street}},
-              {{empleado.address.suite}},
+              <b>Ciudad:</b>
               {{empleado.address.city}}.<br>
               <b> Sitio Web: </b>{{empleado.website}}
             </v-card-text>
