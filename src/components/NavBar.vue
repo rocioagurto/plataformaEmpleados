@@ -24,6 +24,7 @@
         dense
       >
         <v-list-item-group
+          class="mt-4"
           v-model="group"
           active-class="blue-grey lighten-5"
         >
@@ -54,9 +55,6 @@
             </v-list-item-icon>
             <v-list-item-title>Salir</v-list-item-title>
           </v-list-item>
-
-          
-
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

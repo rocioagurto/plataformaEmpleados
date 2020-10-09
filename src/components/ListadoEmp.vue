@@ -44,12 +44,13 @@ export default {
   methods:{
     ...mapActions(['setEmps', 'setCurrentEmp', 'updateEmp', 'deleteEmp']),
     editEmp(id){
-    this.setCurrentEmp(id)
+    this.updateEmp(id)
     },
     removeEmp(id){
       let confirmation = confirm('¿Estás seguro(a) que deseas eliminar a este empleado?')
       if(confirmation){
         this.deleteEmp(id)
+        console.log(id)
       }
     },
   },
